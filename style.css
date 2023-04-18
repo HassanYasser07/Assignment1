@@ -1,0 +1,117 @@
+* {
+    font-family: 'Almarai', sans-serif;
+}
+
+:root {
+    --main-color: #bdd7ee;
+    --text-color: #255bab;
+    --second-color: #59b5fa;
+    --label-color: black;
+}
+
+.dark_theme {
+    --main-color: black;
+    --text-color: #576CBC;
+    --second-color: #A5D7E8;
+    --label-color: white;
+}
+
+.c {
+    background-color: var(--main-color);
+    display: inline;
+    color: var(--text-color);
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.c :hover {
+    background-color: var(--second-color);
+}
+
+.cc :hover {
+    background-color: var(--second-color);
+}
+
+.cc {
+    background-color: var(--main-color);
+    display: inline;
+    color: black;
+    font-size: x-large;
+    margin-right: 35px;
+}
+
+#moon_icon {
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+}
+
+.hh {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    background-color: var(--main-color);
+}
+
+.box {
+    text-align: center;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    width: 330px;
+    height: 320px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#f {
+    color: var(--text-color);
+    padding: 5px;
+}
+
+.f {
+    color: var(--text-color);
+    padding: 10px;
+}
+
+.label {
+    color: var(--label-color);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+form {
+    padding: 50px;
+}
+
+.submet {
+    margin-top: 10px;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+nav a {
+    display: inline;
+    text-decoration: none;
+}
+
+.agree {
+    display: inline;
+}
+
+a :hover {
+    background-color: var(--second-color);
+}
+
+#Dark_check {
+    position: absolute;
+    right: 80px;
+    ;
+}
